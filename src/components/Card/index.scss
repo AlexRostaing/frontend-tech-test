@@ -1,0 +1,54 @@
+.character-card {
+    display: grid;
+    grid-template-columns: 195px auto;
+    grid-template-rows: calc(3em + 15px) auto calc(3em + 15px);
+    min-height: 100px;
+    height: auto;
+    max-width: 80%;
+    margin: 20px auto 10px auto;
+    padding: 15px;
+    border: 3px solid rgb(36, 91, 231);
+    border-radius: 5px;
+}
+
+.character-image {
+    width: 180px;
+    height: 180px;
+    align-self: flex-start;
+    border: 1px solid lightgray;
+    /* left: 0;
+    bottom: 0; */
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+    > img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+.character-name {
+    /* width: calc(100% - 240px);
+    height: 3em; */    
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
+    align-self: flex-start;
+}
+
+.character-description {
+    grid-column: 2 / -1;
+    grid-row: 2 / 3;
+    justify-self: stretch;
+    align-self: center;
+}
+
+.character-stats {
+    grid-column: 2 / -1;
+    grid-row: 3 / -1;
+    justify-self: stretch;
+    align-self: end;
+    > * {
+        /* height: 3em; */
+        display: inline;
+        margin: 0 15px 0 15px;
+    }
+}

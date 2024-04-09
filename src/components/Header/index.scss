@@ -1,3 +1,19 @@
+
 .header {
-    background-color: lumx-color-variant('primary', 'N');
+    background-color: lumx-color-variant('primary', 'L1');
+    border: solid 3px lumx-color-variant('primary', 'N');
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+.header-title {
+    color: white;
+    padding: 0 5px;
+    border: 1px solid lumx-color-variant('primary', 'N');
+    border-radius: 2px;
+    background-color: rgb(237, 29, 36);
 }

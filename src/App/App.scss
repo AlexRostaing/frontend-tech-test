@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  height: 100%;
+  width: 100%;
 }
 
 .App-logo {
@@ -47,4 +49,9 @@
 
 .rules img {
   max-width: 100%;
+}
+
+.main-page {
+  margin: 30px 130px 0px 130px;
+  padding-bottom: 30px;
 }

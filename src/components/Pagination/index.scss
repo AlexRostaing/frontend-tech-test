@@ -1,0 +1,30 @@
+.change-page-button {
+    width: 5rem;
+}
+
+.pag-btn {
+    border-radius: 3px;
+    margin: 2px;
+    color: rgb(36, 91, 231);
+    background-color: rgb(188, 225, 237);
+    border-color: rgb(36, 91, 231);
+    &:hover {
+        background-color: rgb(157, 190, 201);
+        border-color: darkblue;
+    }
+}
+
+#page-buttons {
+    flex-grow: 3;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+
+.page-button{
+    width: 3rem;
+    &.current-page {
+        background-color: rgb(81, 137, 155);
+        border-color: darkblue;
+    }
+}

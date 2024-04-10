@@ -9,5 +9,6 @@ No additional technologies were used besides the suggested stack.
 
 Add the API keys to the .env file. 
 Then launch the app:
-    - yarn    
-    - yarn start
+
+    yarn
+    yarn start

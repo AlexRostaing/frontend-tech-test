@@ -1,7 +1,7 @@
 # LumApps Frontend Test
 
 
-## Stack
+## Requirements
 
 No additional technologies were used besides the suggested stack.
 
